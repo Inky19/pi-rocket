@@ -7,8 +7,8 @@ if __name__ == "__main__":
     path = f"{os.path.dirname(__file__)}/"
     config = configparser.ConfigParser()
     config.read(f"{path}config.ini")
-    vidLenght = config.get("Camera","vidLenght")
-    chunkLenght = config.get("Camera","chunkLenght")
+    vidLenght = int(config.get("Camera","vidLenght"))
+    chunkLenght = int(config.get("Camera","chunkLenght"))
     log = "True" == config.get("Camera","log")
 
     camera = picamera.PiCamera()
