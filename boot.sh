@@ -1,1 +1,1 @@
-python "/home/pi/HIPPO 2/rocket-pi/camera.py"
+python "/home/nasa/NanoSpace2023/pi-rocket/camera.py"
