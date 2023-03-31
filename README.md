@@ -1,6 +1,6 @@
 # pi-rocket
 
-A small script to record video using a Raspberry Pi inside a rocket.  
+A small script to record a video using a Raspberry Pi inside a rocket.  
 The video is splitted in chunks to prevent the loss of all the record if the power is cut off at any moment during flight.
 
 ## Installation
