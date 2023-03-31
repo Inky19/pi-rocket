@@ -1,7 +1,6 @@
 from picamera2 import Picamera2
 from picamera2.encoders import H264Encoder
 import RPi.GPIO as GPIO
-import outVideo
 import os
 import configparser
 import time
